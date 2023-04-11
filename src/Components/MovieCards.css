@@ -1,0 +1,41 @@
+.movie-list{
+    background-color: black;
+
+}
+.movie-header{
+    display: flex;
+ align-items: center;
+ 
+}
+.movie-header h1{
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+    color: #fc0;
+    font-weight: 1000;
+    margin-left: 10px;
+    display: inline;
+    
+}
+.movie-header a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.forward_btn{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 110%;
+}
+.backward_btn{
+    color: white;
+    display: inline;
+    position: absolute;
+    left: 98.5%;
+    top: 110%;
+}
+
+.btn_hidden{
+display: none;
+}

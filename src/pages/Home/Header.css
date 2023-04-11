@@ -1,5 +1,5 @@
 .header-content{
-   padding-top: 1000px;
+    padding-top: 500px;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0.0,0,0.7)),url('../../images/header-image.png');
     background-position: center;
     background-size: cover;
@@ -11,20 +11,43 @@
     font-size: 30px;
     line-height: 70px;
     font-weight: 600;
-    max-width :650px;
+    position: absolute;
+    top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+
     
+}
+.header-content h3{
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    top: 60%;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+    
+}
+.header-content button
+{
+    position: absolute;
+    top: 70%;
+    left: 45%;
 }
 /* .header-content h1{
     font-weight: 400px;
     margin-top: 20px;
 } */
 .email-signup{
+    top: 80%;
     background-color: #fff;
     border-radius: 4px;
     display: flex;
     align-items: center;
     margin-top: 30px ;
-    overflow: hidden;
+   
     
 }
 .email-signup input{

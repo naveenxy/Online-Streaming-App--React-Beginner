@@ -1,0 +1,14 @@
+
+.card-group {
+    
+    padding: 20px;
+}
+.card {
+    
+    max-height: 655px;
+    max-width: 244px;
+    padding: 1px;
+}
+img.card-img-top {
+    height: 150px;
+}
