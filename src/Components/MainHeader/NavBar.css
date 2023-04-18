@@ -10,8 +10,8 @@
     background:#3d3d3d;
     padding: 0 2rem;
     color: white;
-    
-  }
+    z-index: 1000;
+   }
 
   .header-content{
     display: flex;

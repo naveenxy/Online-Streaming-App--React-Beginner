@@ -89,20 +89,17 @@ const MovieCards = (props) => {
 
   return (
     <div className="movie-list">
-
-
-
-      
       <div className="movie-header">
         <h1>Latest Movies </h1>
-     {props.isLoggedIn ? <a href="/movies">
-          See More <AiFillCaretRight />
-        </a> :<a href="/login">
-          See More <AiFillCaretRight />
-        </a> }
-
-
-        
+        {props.isLoggedIn ? (
+          <a href="/movies">
+            See More <AiFillCaretRight />
+          </a>
+        ) : (
+          <a href="/login">
+            See More <AiFillCaretRight />
+          </a>
+        )}
       </div>
       <Card movieList={movies.slice(movieState.start, movieState.end)} />
       {movieState.start == 0 ? (

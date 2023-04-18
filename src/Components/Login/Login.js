@@ -1,5 +1,5 @@
-import React, { useEffect, useReducer, useState } from "react";
-
+import React, { useEffect, useReducer, useState} from "react";
+import { useNavigate } from 'react-router-dom';
 import Card from "../UI/LoginCard";
 import classes from "./Login.module.css";
 import Button from "../Login/Button";
@@ -26,10 +26,6 @@ function passwordReducer(state, action) {
 }
 const Login = (props) => {
   console.log(props)
-  // const [enteredEmail, setEnteredEmail] = useState('');
-  // const [emailIsValid, setEmailIsValid] = useState();
-  const [enteredPassword, setEnteredPassword] = useState("");
-  const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
   const [emailState, emaildispatch] = useReducer(emailReducer, {
     value: " ",
@@ -40,9 +36,6 @@ const Login = (props) => {
     isValid: null,
   });
 
-  useEffect(() => {
-    console.log("EEFFuse-effectECT");
-  }, []);
   useEffect(() => {
     const handler = setTimeout(() => {
       console.log("Check for Validity");
@@ -73,10 +66,12 @@ const Login = (props) => {
     //setPasswordIsValid(enteredPassword.trim().length > 6);
     passwordDispatch({ type: "USER_BLUR" });
   };
-
+  const history = useNavigate();
   const submitHandler = (event) => {
     event.preventDefault();
     props.onLogin(emailState.value, passwordState.value);
+
+    history('/');
   };
 
   return (
