@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Online-Streaming-App--React-Beginner/static/css/main.81e562c3.css",
+    "main.js": "/Online-Streaming-App--React-Beginner/static/js/main.eec55308.js",
+    "static/js/787.0bc5562b.chunk.js": "/Online-Streaming-App--React-Beginner/static/js/787.0bc5562b.chunk.js",
+    "static/media/header-image.png": "/Online-Streaming-App--React-Beginner/static/media/header-image.d70b0bbb20753fb4bbe5.png",
+    "static/media/billboard.webp": "/Online-Streaming-App--React-Beginner/static/media/billboard.2f31fed4a9f25579e3e0.webp",
+    "static/media/billboard-title.webp": "/Online-Streaming-App--React-Beginner/static/media/billboard-title.f92c5a529f3929c96f8a.webp",
+    "index.html": "/Online-Streaming-App--React-Beginner/index.html",
+    "main.81e562c3.css.map": "/Online-Streaming-App--React-Beginner/static/css/main.81e562c3.css.map",
+    "main.eec55308.js.map": "/Online-Streaming-App--React-Beginner/static/js/main.eec55308.js.map",
+    "787.0bc5562b.chunk.js.map": "/Online-Streaming-App--React-Beginner/static/js/787.0bc5562b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81e562c3.css",
+    "static/js/main.eec55308.js"
+  ]
+}
